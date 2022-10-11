@@ -17,6 +17,7 @@
 		507A6C1328EDDA660027BA23 /* SleepTracks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507A6C1228EDDA660027BA23 /* SleepTracks.swift */; };
 		50805DDA28ECC171003C6CE9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50805DD928ECC171003C6CE9 /* Home.swift */; };
 		508C363828ECCF9B006F4DFD /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508C363728ECCF9B006F4DFD /* CategoryView.swift */; };
+		50BB2D5428F0B16600DF6BD7 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BB2D5328F0B16600DF6BD7 /* Extension.swift */; };
 		50C2383828EF92F900277275 /* PlayBackControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C2383728EF92F900277275 /* PlayBackControl.swift */; };
 		50E0123328EDDFA5003BE732 /* sunset.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 50E0123028EDDFA5003BE732 /* sunset.mp3 */; };
 		50E0123428EDDFA5003BE732 /* forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 50E0123128EDDFA5003BE732 /* forest.mp3 */; };
@@ -35,6 +36,7 @@
 		507A6C1228EDDA660027BA23 /* SleepTracks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTracks.swift; sourceTree = "<group>"; };
 		50805DD928ECC171003C6CE9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		508C363728ECCF9B006F4DFD /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		50BB2D5328F0B16600DF6BD7 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		50C2383728EF92F900277275 /* PlayBackControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayBackControl.swift; sourceTree = "<group>"; };
 		50E0123028EDDFA5003BE732 /* sunset.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sunset.mp3; sourceTree = "<group>"; };
 		50E0123128EDDFA5003BE732 /* forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = forest.mp3; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 			children = (
 				500CB58628ECEFC600E4E1F0 /* AudioManager.swift */,
 				507A6C1228EDDA660027BA23 /* SleepTracks.swift */,
+				50BB2D5328F0B16600DF6BD7 /* Extension.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50BB2D5428F0B16600DF6BD7 /* Extension.swift in Sources */,
 				50C2383828EF92F900277275 /* PlayBackControl.swift in Sources */,
 				500CB58728ECEFC600E4E1F0 /* AudioManager.swift in Sources */,
 				507A6C1328EDDA660027BA23 /* SleepTracks.swift in Sources */,

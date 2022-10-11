@@ -12,15 +12,13 @@ struct SleepTracks: Hashable, Codable, Identifiable{
     var bgImg: String
     var trackName: String
     var trackAudio: String
+    var duration: TimeInterval
 }
 
-let rainData = SleepTracks(id: 0, bgImg: "rain", trackName: "Rain", trackAudio: "rain")
-
-let forestData = SleepTracks(id: 1, bgImg: "forest", trackName: "Forest", trackAudio: "forest")
-
-let oceanData = SleepTracks(id: 2, bgImg: "ocean", trackName: "Ocean", trackAudio: "ocean")
-
-let sunsetData = SleepTracks(id: 3, bgImg: "sunset", trackName: "Sunset", trackAudio: "sunset")
+var nightData = SleepTracks(id: 0, bgImg: "night", trackName: "Night", trackAudio: "sunset", duration: 85.2)
+var oceanData = SleepTracks(id: 1, bgImg: "ocean", trackName: "Ocean", trackAudio: "ocean", duration: 76.8)
+var forestData = SleepTracks(id: 2, bgImg: "forest", trackName: "Forest", trackAudio: "forest", duration: 310)
+var rainData = SleepTracks(id: 3, bgImg: "rain", trackName: "Rain", trackAudio: "rain", duration: 60)
 
 let categories: [SleepTracks]
-= [rainData, forestData, oceanData, sunsetData]
+= [nightData, oceanData, forestData, rainData]

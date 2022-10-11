@@ -35,7 +35,7 @@ struct Home: View {
                     .padding(.leading)
                     .foregroundColor(.white)
                 
-                CategoryView(categoryItem: categories[0])
+                CategoryView()
                 
             }
             .padding(50)
